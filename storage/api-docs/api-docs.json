@@ -1,0 +1,27 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "online-platform Swagger API",
+        "description": "L5 Swagger OpenApi description",
+        "contact": {
+            "email": "your@example.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/users": {
+            "get": {
+                "operationId": "661394acb17e34790fb3bb98f7292bee",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of users."
+                    }
+                }
+            }
+        }
+    }
+}
