@@ -13,6 +13,7 @@ Route::resource('course', CourseController::class);
     Route::get('/home', [HomeController::class, 'home'])->name('client.home');
 });
 
+
 Route::resource('category',CategoryController::class);
 
 // Маршруты аутентификации и регистрации без middleware
